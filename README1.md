@@ -203,11 +203,5 @@ This project successfully demonstrates:
 ---
 
 ## 👨‍💻 Contributors  
-- **Your Name** - *MTech in Financial Engineering*  
-- Open to contributions! Feel free to raise issues and submit pull requests. 🚀  
+- **Your Name** - *Atriz Ray*  
 
----
-
-## ⭐ **Support & License**  
-If you find this project useful, please **⭐ star this repository**!  
-📜 Licensed under MIT License.  
