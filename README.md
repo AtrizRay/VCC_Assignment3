@@ -1,7 +1,7 @@
 # Assignment 3  
 
 ## Project Overview  
-This project implements **real-time monitoring and auto-scaling** of a **local VM** using **Prometheus** and **Google Cloud Pub/Sub**. When **CPU usage exceeds 75%**, a **new VM is automatically launched in GCP**. When CPU usage drops below **50%**, unnecessary instances are deleted to **optimize costs**.  
+This project implements **real-time monitoring and auto-scaling** of a **local VM** using **Prometheus** and **Google Cloud Pub/Sub**. When **CPU usage exceeds 75%**, a **new VM is automatically launched in GCP**.  
 
 ## Technologies Used  
 - **VirtualBox** (Local VM management)  
