@@ -203,5 +203,5 @@ This project successfully demonstrates:
 ---
 
 ## 👨‍💻 Contributors  
-- **Your Name** - *Atriz Ray*  
+- *Atriz Ray*  
 
