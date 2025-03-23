@@ -181,7 +181,7 @@ pkill yes
 
 ## 📌 Repository & Demo  
 
-- **Source Code**: [GitHub Repository](https://github.com/yourusername/Auto-Scaling-VM-to-GCP)  
+- **Source Code**: [GitHub Repository](https://github.com/AtrizRay/VCC_Assignment3.git)  
 - **Video Demonstration**: [YouTube Link](https://youtu.be/your-video-link)  
 
 ---
