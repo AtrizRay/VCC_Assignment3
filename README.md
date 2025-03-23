@@ -8,6 +8,7 @@ This project implements **real-time monitoring and auto-scaling** of a **local V
 - **Ubuntu 22.04** (OS for Local VM)  
 - **Google Cloud Compute Engine** (Auto-Scaling Target)  
 - **Google Cloud Pub/Sub** (Messaging for auto-scaling triggers)  
+- **Google Cloud Functions** (Auto-Scaling Logic)  
 - **Prometheus** (Real-time CPU Monitoring)  
 - **Python** (Automation & Monitoring Script)  
 - **GitHub** (Version Control)  
@@ -17,7 +18,6 @@ This project implements **real-time monitoring and auto-scaling** of a **local V
 ## Project Setup & Execution  
 
 ### 1️⃣ **Setup Local Virtual Machine**  
-
 - Install **VirtualBox** and create a VM (`local-vm`).  
 - Allocate **2 vCPUs** and **4GB RAM** to simulate high CPU load.  
 - Configure **Networking:**  
@@ -35,7 +35,6 @@ ping google.com
 ---
 
 ### 2️⃣ **Deploy CPU Monitoring Service (Prometheus)**  
-
 - **Install Prometheus**:  
 ```bash
 wget https://github.com/prometheus/prometheus/releases/download/v2.45.0/prometheus-2.45.0.linux-amd64.tar.gz
@@ -61,7 +60,6 @@ scrape_configs:
 ---
 
 ### 3️⃣ **Monitor CPU Usage & Trigger Auto-Scaling**  
-
 - **Install Required Dependencies**:  
 ```bash
 pip3 install requests google-cloud-pubsub
@@ -106,7 +104,6 @@ python3 monitor.py
 ---
 
 ### 4️⃣ **Deploy Cloud Function for Auto-Scaling**  
-
 - **Create `cloud_function.py`**:  
 ```python
 from google.cloud import compute_v1
@@ -145,7 +142,6 @@ gcloud functions deploy auto_scaling_function     --runtime python39     --trigg
 ---
 
 ### 5️⃣ **Testing the Deployment**  
-
 - **Run CPU Monitoring**:  
 ```bash
 python3 monitor.py
@@ -183,6 +179,8 @@ pkill yes
 
 - **Source Code**: [GitHub Repository](https://github.com/AtrizRay/VCC_Assignment3.git)  
 - **Video Demonstration**: [YouTube Link](https://youtu.be/your-video-link)  
+
+--- 
 
 ---
 
